@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPTIME - магазин элитной косметики</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Inter:wght@400;700&family=M+PLUS+1p:wght@400;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/FORMARR.JS" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header img-fon">
+            <div class="menu headd">
+                <a href="index.html" class="logo">
+                    OPTIME
+                </a>
+                <div class="dropdown">
+                    <div class="dropdown_between">
+                        <a href="#" class="mm">
+                            <img src="img/lupa.png" alt="" class="usbas">
+                        </a>
+                    </div>
+                    <div class="dropdown_between">
+                        <button class="dropbtn">Меню</button>
+                        <div class="dropdown-content">
+                          <a href="index2.html" class="border_nav">Каталог</a>
+                          <a href="index.html" class="border_nav">О нас</a>
+                          <a href="index.html"  class="border_nav">Корзина</a>
+                          <a href="index4.html" class="border_nav">Личный кабинет</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="nav">
+                    <a href="index2.html" class="mm">Каталог</a>
+                    <a href="index.html" class="mm">О нас</a>
+                    <a href="index.html" class="mm">Контакты</a>
+                    <a href="index3.html" class="mm">
+                        <img src="img/basket.png" alt="" class="usbas">
+                    </a>
+                    <a href="index4.html" class="mm">
+                        <img src="img/user.png" alt="" class="usbas">
+                    </a>                    
+                    <a href="#" class="mm">
+                        <img src="img/lupa.png" alt="" class="usbas">
+                    </a>
+                </div>
+            </div>
+
+
+        </header>
+        <section class="log"> 
+            <div class="login__section"> 
+                <div class="formbox login"> 
+                    <form method="post" action="login.php"> 
+                        <h2>Вход</h2> 
+                        <div class="input__box"> 
+                            <input name="number2" type="tel" required> 
+                            <label for="">Номер телефона</label> 
+                        </div> 
+                        <div class="input__box"> 
+                            <input name="password3" type="password" required> 
+                            <label for="">Пароль</label> 
+                        </div>  
+                        <div class="remember__password">
+                            <input type="checkbox" name="" id=""><div class="remem">Запомнить меня</div>
+                            <a class="parol" href="#">Забыли пароль</a>            
+                        </div>
+                        <button type="submit" class="btn1">Войти</button> 
+                        <div class="create__acc">
+                            <p>Создать аккаунт? <a href="#" class="register-link">Зарегистрироваться</a></p>
+                        </div>                
+                    </form> 
+                </div> 
+                <div class="formbox register"> 
+                    <form method="post" action="register.php">                        
+                        <h2>Регистрация</h2>
+                        <div class="input__box">
+                            <input name="number" type="tel" required>
+                            <label for="">Номер телефона</label>
+                        </div>
+                        <div class="input__box">
+                            <input name="password" type="password" required>
+                            <label for="">Пароль</label>
+                        </div> 
+                        <div class="input__box">
+                            <input name="password2" type="password" required>
+                            <label for="">Подтвердите пароль</label>
+                        </div> 
+                        <button type="submit" class="btn1">Зарегистрироваться</button> 
+                        <div class="create__acc">
+                            <p>Уже есть аккаунт? <a href="#" class="Login-link">Войти</a></p>
+                        </div>                                 
+ 
+                    </form> 
+                </div> 
+            </div> 
+        </section> 
+    </header>

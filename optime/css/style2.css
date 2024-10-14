@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 26px;
+    margin: 0;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F0E8E2;
+    transition: 0.5s;
+}
+body.active{
+    background-color: #6d6b68;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*-----------fffff-----------*/
+
+
+
+.container{
+    width: 1250px;
+    height: 800px;
+    padding: 40px;
+    position: relative;
+}
+
+
+/*---------------FORMA---------*/
+
+.forma{
+    height: 100%;
+    background-color: #F4F1ED;
+    border-radius: 20px;
+    box-shadow: 0 5px 45px rgba(125, 99, 99, 0.593);  
+
+    display: flex;
+    align-items: center;
+}
+.forma__item{
+    width: 50%;
+}
+
+
+.forma-item{
+    text-align: center;
+}
+.forma-item__title{
+    margin-bottom: 20px;
+}
+.forma-item__btn{
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+
+/*------------FOORM----------------*/
+
+.form-box{
+    background-color: #fff;
+    height: 100%;
+    width: 50%;
+    box-shadow: 0 5px 45px rgba(125, 99, 99, 0.593);
+    border-radius: 20px;
+ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    transition: 0.5s ease-in-out;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+}
+.form-box.active{
+    left: 50%;
+}
+
+/*------------ФОРМА------------*/
+
+.form{
+    width: 100%;
+    padding: 50px;
+    position: absolute;
+
+    transition: 0.5s;
+}
+.section__button {
+    background-color: #ebdfd5;
+    border: 2px solid #D3C8C0;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 97px;
+    cursor: pointer;
+    transition: .7s ease-in-out, color .2s ease-in-out;
+}
+  
+.section__button:hover {
+    background-color: #aa9b91;
+    color: #ffffff;
+}
+.form_signin{
+    left: 0;
+    transition-delay: 0.25s;
+}
+.form_signup{
+    left: 100%;
+    transition-delay: 0s;
+
+}
+.form-box.active .form_signin{
+    left: -100%;
+    transition-delay: 0s;
+
+}
+.form-box.active .form_signup{
+    left: 0;
+    transition-delay: 0.25s;
+
+}
+.form__input{
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #333;
+}
+
+.form__fargot{
+    font-size: 18px;
+    color: #333;
+}
+
+.form__fargot {
+    padding: 0px 15px;
+    border-bottom: 2px solid #aa9b91;
+    cursor: pointer;
+    transition: .7s ease-in-out, color .2s ease-in-out;
+}
+  
+.form__fargot:hover {
+    color: #d0a7a7;
+}
+
+@media (max-width: 992px) {
+    .container{
+        min-width: 300px;
+        height: 650px;
+        padding: 10PX;
+        margin: 20px;
+    }
+    .forma{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .forma-item{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .form-box{
+        width: 100%;
+        height: 500px;
+
+        top: 0;
+    }
+    .form-box.active{
+        top: 150px;
+        left: 0;
+    }
+}
+
+@media (max-width: 1400px) {
+    body{
+        font-size: 22px;
+    }
+    .container{
+        width: 850px;
+        height: 600px;
+    }
+    .form__fargot{
+        font-size: 18px;
+    }
+
+}

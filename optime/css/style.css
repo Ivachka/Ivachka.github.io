@@ -1,0 +1,1095 @@
+html{
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    background-color: #F0E8E2;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #122947;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 10px;
+}
+.img-fon{
+    background-image: url(../img/fon.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    letter-spacing: 10px;
+    font-weight: 700;
+    font-size: 28px;
+}
+.mm {
+    padding: 0px 15px;
+}
+.headd {
+    border-bottom: 1px solid;
+}
+.dropdown{
+    display: none;
+}
+.optime__inner {
+    padding: 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: start;
+    text-align: center;
+    line-height: 1.3;
+}
+.optime-img{
+    width: 400px;
+    height: 480px;
+}
+.optime__tittle{
+    padding: 110px 0px 20px;
+    font-size: 58px;
+}
+.subtitle{
+    padding: 0px 0px 45px;
+}
+.button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 1px solid;
+}
+.search_res{
+    display: flex;
+    justify-content: end;
+    margin: 15px 0;
+}
+.search_button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: black;
+    border: 1px solid #cec4c3;
+    border-radius: 10px;
+    background-color: #F4F1ED;
+    font-size: 20px;
+}
+.search_button:hover{
+    background-color: #cab59a;
+    transition: .6s ease-in-out, color .4s ease-in-out; 
+}
+.input_form{
+    width: 130px;
+    border-bottom: 1px solid black;
+    color: #000;
+}
+.input_form:hover{
+    border-bottom: 2px solid #c8a7a1;
+}
+.search_text{
+    color: #000;
+}
+/*------------------------MAIN--------------------------*/
+.main{
+    flex: 1 1 auto;
+}
+
+/*-------------BESTT------------*/
+
+.but22{
+    padding: 5px 15px;
+    border-bottom: 1px solid;
+}
+.why-lease {
+    padding: 100px 0px;
+}
+.why-lease__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why-lease__item-img{
+    width: 250px;
+}
+.text__why{
+    margin: -160px 0px 0px;
+    font-size: 15px;
+}
+.why-lease__item-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+/*----------DAISY----------*/
+.daisy{
+    margin-bottom: 200px;
+}
+.daisy-fon{
+    height: 500px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.daisy__inner{
+    margin: -360px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+.daisy2__title{
+    margin-top: -310px;
+    text-align: center;
+}
+.daisy2{
+    margin: 100px 0px 250px;
+}
+.start{
+    align-items: flex-start;
+}
+/*-------------CARE-------------*/
+
+.care__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.square{
+    margin-right: -100px;
+    padding: 140px 140px 140px 100px;
+    background-color: #F4F1ED;
+    max-width: 370px;
+    min-width: 360px;
+}
+
+/*------------JOIN-------------*/
+
+.join{
+    margin: 150px 0px;
+}
+.join__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.join-text{
+    padding: 20px 0px 30px;
+}
+
+
+.map{
+    margin-bottom: 150px;
+}
+.mapkarta22{
+    display: none;
+}
+
+/*--------------Footer-------*/
+
+.footer{
+    background-color: #F4F1ED;
+}
+.politika{
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #959595;
+    border-top: 1px solid #D1D1D1;
+}
+
+
+
+/*-------------CATAOG----------------*/
+
+.for__face{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 17px;
+    background-color: #e3dbd5;
+}
+
+/*----------------CAR-----------------*/
+
+
+.car{
+    padding: 100px 0 150px;   
+}
+
+.tabs__content-item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.card{
+    text-align: center;
+    border: 2px solid #D3C8C0;
+}
+.card__img{
+    border-bottom: 2px solid #D3C8C0;
+}
+
+.card__title{
+    font-weight: 700;
+}
+.card__price{
+    font-weight: 700;
+}
+.card__title-subtitle{
+    margin-top: -20px;
+    font-size: 15px;
+    color: #9f9f9f;
+}
+.liiin{
+    padding-top: 15px;
+    border-top: 1px solid #D3C8C0;
+}
+.liiin2{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #D3C8C0;
+}
+
+.section__button {
+    background-color: #ebdfd5;
+    border: 2px solid #D3C8C0;
+    font-weight: 700;
+    padding: 10px 97px;
+    cursor: pointer;
+    transition: .7s ease-in-out, color .2s ease-in-out;
+}
+  
+.section__button:hover {
+    background-color: #aa9b91;
+    color: #ffffff;
+}
+/*--------------------модальное окно-----------------------*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 25px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    position: relative;
+    /* background-color: #fefefe; */
+    margin: auto;
+    padding: 0;
+    /* border: 1px solid #888; */
+    width: 450px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.8s;
+    animation-name: animatetop;
+    animation-duration: 0.8s;
+  }
+  
+  /* анимация */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* закрыть */
+  .close {
+    margin-top: -11px;
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .7s ease-in-out, color .2s ease-in-out;
+
+  }
+  
+  .modal-body {
+    padding: 20px 16px;
+    text-align: left;
+    line-height: 30px;
+    height: 650px;
+    color: #1b131d;
+    margin-left: 3px;
+    background:#eee;
+  }
+
+.modal__title{
+    text-align: center;
+}
+.add_korzina{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #333;
+    background-color: #dbcdc0;
+    padding: 15px 40px;
+    margin: 5px 90px 0; 
+    border: none;     
+}
+
+/*-----------------------CRATE--------------------------------*/
+
+.crate{
+    margin: 100px 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.tovari__crate-inner{
+    margin-bottom: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.tovari__crate-img{
+    width: 390px;
+    height: 420px;
+}
+.tovari__opisanie{
+    padding-left: 100px;
+    padding-top: 20px;
+    max-width: 280px;
+    line-height: 2.7;
+}
+.tovari__znaki{
+    max-width: 160px;
+    font-weight: 700;
+    padding-left: 100px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.znak{
+    padding: 1px 17px;
+    background-color: #D3C8C0;
+    border-radius: 10px;
+}
+
+/*---------PAYMENT----------*/
+
+.payment{
+    background-color: #e6dcd5;
+    padding: 20px 0px 40px;
+}
+.oplata{
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+.adresss-item{
+    font-size: 20px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.bank__cards-inner{
+    padding: 35px;
+    border: 1px solid;
+}
+.bank__cards{
+    display: flex;
+    justify-content: space-between;
+}
+.bank__cards-between{
+    font-size: 25px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.bcs{
+    width: 80px;
+}
+
+/*------------CARTAAAAAAA-MODAL====================*/
+
+.addcard__btn{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 0 17px;
+    border: none;
+    background-color: #e6dcd5;
+    transition: .6s ease-in-out, color .4s ease-in-out; 
+}
+.addcard__btn:hover{
+    color: #875436;
+}
+
+/*-------------------новая карта----------------------*/
+
+.card_d{
+    background:#120804;  
+    border-radius: 14px; 
+    max-width: 300px; 
+    display: block; 
+    margin: auto;
+    padding: 60px 20px; 
+    z-index: 99;
+    color: #F4F1ED;
+  }
+
+
+label{
+    display:flex; 
+    font-size:10px; 
+    opacity:.4;
+}
+
+input{
+    background:transparent; 
+    border:none; 
+    border-bottom:1px solid transparent; 
+    transition: border-bottom .4s;
+}
+input:focus{
+    border-bottom:1px solid #1abc9c; 
+    outline:none;
+}
+
+.cardnumber{
+    display:block; 
+    font-size:20px; 
+    margin-bottom:8px; 
+}
+
+.name{
+    display:block; 
+    font-size:15px;
+    max-width: 200px; 
+    float:left; 
+    margin-bottom:15px;
+}
+
+.toleft{
+    float:left;
+}
+.ccv{
+    width:50px; 
+    margin-top: 4px; 
+    font-size:15px;
+}
+.modal-body2 {
+    padding: 20px 16px;
+    text-align: left;
+    line-height: 30px;
+    height: 280px;
+    color: #1b131d;
+    margin-left: 3px;
+    background:#eee;
+}
+    
+
+.lk{
+    font-size: 20px;
+}
+
+.cennnnter{
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+/*--------------fFFFFORMMAAAAAAAA======*/
+/*--------------вход и регистрация------------------------*/ 
+ 
+ 
+ 
+.login__section{ 
+    border: 2px solid #572d0b; 
+    height: 490px; 
+    width: 400px; 
+    margin-top: 70px; 
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    transition: .3s; 
+    overflow: hidden; 
+} 
+.login__section:hover{ 
+    box-shadow: 0 0 60px rgb(218, 141, 90); 
+} 
+.login__section .formbox{ 
+    position: absolute; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    width: 100%; 
+} 
+.formbox h2{ 
+    text-align: center; 
+    font-size: 35px;  
+    color: #000;      
+} 
+.formbox .input__box{ 
+    width: 340px; 
+    height: 50px; 
+    border-bottom: 2px solid #000; 
+    margin: 30px 0; 
+    position: relative; 
+} 
+.input__box input{ 
+    width: 100%; 
+    height: 100%; 
+    background: transparent; 
+    border: none; 
+    outline: none; 
+    font-size: 16px; 
+    padding-right: 28px; 
+    color: #000;        
+} 
+.input__box label{ 
+    position: absolute; 
+    top: 50%; 
+    left: 0; 
+    transform: translateY(-50%); 
+    font-size: 16px; 
+    font-weight: 500; 
+    color: #000; 
+    transition: .3s ease; 
+} 
+.input__box input:focus ~ label, 
+.input__box input:valid ~ label{ 
+    top: -5px; 
+    color: #50230e; 
+    font-weight: 700; 
+} 
+.remember__password{ 
+    font-size: 14px; 
+    font-weight: 500; 
+    margin: -15px 0 15px; 
+    display: flex;  
+    justify-content: space-between;       
+} 
+.remember__password label input{ 
+
+    margin-right: 3px; 
+} 
+.remember__password a{ 
+    color: #000; 
+    font-weight: 700; 
+    text-decoration: none; 
+} 
+.remember__password a:hover{ 
+    color: #bd681a; 
+    text-decoration: none; 
+    font-weight: 700; 
+} 
+.btn1{ 
+    background-color: #fff; 
+    width: 100%; 
+    height: 45px; 
+    outline: none; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    color: #ffffff; 
+    background: #dac2a0; 
+    box-shadow: rgba(0,0,0,0.4); 
+} 
+.create__acc{ 
+    font-size: 14.5px; 
+    text-align: center; 
+    margin: 25px; 
+ 
+} 
+.create__acc p a{ 
+    color: #000; 
+    font-weight: 700; 
+    text-decoration: none; 
+} 
+.create__acc p a:hover{ 
+    color: #c28121; 
+    font-weight: 700; 
+} 
+.login__section .formbox.register{ 
+    transform: translateY(-460px);     
+    transition: transform .6s ease; 
+} 
+.login__section.active .formbox.register{ 
+    transform: translateY(0); 
+    transition-delay: .3s; 
+} 
+.login__section .formbox.login{ 
+    transform: translateY(0px);     
+    transition: transform .7s; 
+} 
+.login__section.active .formbox.login{ 
+    transform: translateY(430px); 
+    transition-delay: 0s; 
+} 
+.password { 
+ position: relative; 
+} 
+.pass { 
+ position: absolute; 
+ top: 11px; 
+ right: 6px; 
+ display: inline-block; 
+ width: 20px; 
+ height: 20px; 
+ background: url(/view.svg) 0 0 no-repeat; 
+} 
+.password-control.view { 
+ background: url(/no-view.svg) 0 0 no-repeat; 
+}
+
+
+
+@media (max-width: 900px){ 
+    /*-----------form-------------------*/ 
+    .login__section{ 
+        height: 430px; 
+        width: 300px; 
+        margin-top: 50px; 
+    }  
+    .formbox h2{ 
+        font-size: 30px;      
+    }  
+    .formbox .input__box{ 
+        margin-left: 20px; 
+        width: 250px; 
+        height: 50px; 
+    } 
+    .input__box label{ 
+        transform: translateY(-60%); 
+        font-size: 14px; 
+    } 
+    .register .input__box{ 
+        margin-right: 15px; 
+    } 
+    .btn1{ 
+        width: 80%; 
+        margin: 0 45px 0 30px; 
+    } 
+    input{ 
+        margin-left: 19px; 
+    } 
+    .remem{ 
+        margin-left: -35px; 
+        font-size: 12px; 
+    } 
+    .parol{ 
+        margin-right: 15px; 
+        font-size: 12px; 
+    } 
+    .create__acc{ 
+        font-size: 12px; 
+    } 
+} 
+ 
+    
+/*--------------------------MEDIA---------------------*/
+
+/*------------------------1900---------------------*/
+
+
+@media (min-width: 1790px){
+    body{
+        font-size: 25px;
+    }
+    .container{
+        min-width: 1600px;
+        margin: 0 auto; 
+        padding: 0 10px;
+    }
+    .optime__tittle{
+        font-size: 90px;
+    }
+    .subtitle{
+        font-size: 30px;
+    }
+    .optime-img{
+        width: 540px;
+        height: 700px;
+    }
+    .why-lease__item-img{
+        height: 450px;
+        width: 370px;
+    }
+    .daisy-fon{
+        height: 650px;
+    }
+    .daisy__inner{
+        margin: -490px 0px 0px;
+        padding-right: 80px;
+    }
+    .das-title{
+        margin-bottom: 5px;
+        font-size: 40px;
+    }
+    .square{
+        min-width: 600px;
+    }
+    .care-img{
+        height: 540px;
+    }
+    .care__inner{
+        margin: 280px 0px 180px;
+    }
+    .daisy2__title{
+        margin-top: -380px;
+        font-size: 44px;
+    }
+    .join{
+        margin-top: 330px;
+    }
+    .join-img{
+        height: 600px;
+    }
+    .care_block{
+        text-align: center;
+    }
+    .mapkarta22{
+        display: none;
+    }
+
+    /*--------------------------2INDEEX----------------------*/
+
+    .card__img{
+        width: 380px;
+    }
+    .modal-body {
+        font-size: 18px;
+      }
+    .section__button{
+        margin-bottom: 35px;
+    }
+    
+}
+
+/*-------------------320---------------------*/
+
+
+@media (max-width: 860px){
+    body{
+        font-size: 20px;
+    }
+    .container{
+        min-width: 320px;
+    }
+    .logo{
+        padding: 10px 0px;
+        font-size: 23px;
+        letter-spacing: 4px;
+    }
+    .nav{
+        display: none;
+    }
+    /*==========drop===========*/
+    .dropbtn {
+        background-color: #e3d9d1;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f6eeee;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .border_nav{
+        border: 0.5px solid #b9abab;
+    }
+    .dropdown-content a {
+        padding: 3px;
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: rgb(206, 199, 199);
+        cursor: pointer;
+        transition: .7s ease-in-out, color .2s ease-in-out;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover .dropbtn {
+        background-color: #d3c8c8;
+        cursor: pointer;
+        transition: .7s ease-in-out, color .2s ease-in-out;
+    }
+    /*=======================*/
+
+      .optime__tittle{
+        padding: 50px 0px 20px;
+    }
+    .optime__tittle{
+        font-size: 45px;
+    }
+    .optime-img {
+        display: none;
+    }
+    .but{
+        display: none;
+    }
+    /*--------------WHY----------------*/
+    .why-lease {
+        padding: 50px 0px;
+    }
+    .why-lease__item-img{
+        height: 240px;
+        width: 230px;
+    }
+    .why-lease__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .daisy{
+        margin-bottom: 20px;
+    }
+    .daisy-fon{
+        height: 140px;
+    }
+    .daisy__inner{
+        margin-top: -130px;
+        padding-right: 10px;
+    }
+    .das-title{
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .daisy__text{
+        font-size: 10px;
+    }
+
+    .button__daisy{
+        font-size: 10px;
+        margin-top: 0px;
+        padding: 3px 5px;
+        border: 1px solid;
+    }
+    /*-----------care------------*/
+    .care__inner{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .square{
+        margin-right: 0px;
+        margin-top: -160px;
+        padding: 0px 30px;
+        max-width: 200px;
+        min-width: 100px;
+    }
+    .daisy__title{
+        font-size: 18px;
+    }
+    .care-img{
+        display: none;
+    }
+    .care__inner{
+        margin: 210px 0px 0px;
+    }
+    /*===================*/
+
+    .daisy2{
+        margin: 50px 0px;
+    }
+    .daisy2__title{
+        margin-top: -110px;
+        font-size: 14px;
+    }
+    .join{
+        margin: 70px 0px;
+    }
+    .join-title{
+        font-size: 18px;
+    }
+    .join-text{
+        font-size: 15px;
+    }
+    .join-img{
+        display: none;
+    }
+    .join__item{
+        text-align: center;
+        gap: 10px;
+    }
+    .care_block{
+        font-size: 16px;
+        text-align: center;
+    }
+    /*=-=-=-=-=-=---=--=-=*/
+
+    .map{  
+        margin-bottom: 50px;
+    }
+    .mapkarta11{
+        display: none;
+    }
+    .mapkarta22{
+        display: flex;
+    }
+
+    .scrit{
+        display: none;
+    }
+
+    /*----------------------------INDEEEX222222---------------------*/
+    
+    .for__face{
+        padding: 20px 0;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 7px;
+        background-color: #e3dbd5;
+    }
+
+    .car{
+        padding: 60px 0px;   
+    }
+    .tabs__content-item{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 70px;
+    }
+    .card__img{
+        padding-top: 50px;
+        width: 260px;
+        height: 280px;
+        border-bottom: none;
+
+    }
+    .section__button{
+        margin-bottom: 25px;
+    }
+    .lk{
+        font-size: 15px;
+    }
+    
+    .card__text{
+        max-width: 310px;
+        font-size: 18px;
+    }
+    .card__title{
+        font-size: 20px;
+    }
+    .modal-content{
+        width: 315px;
+    }
+    .modal-body {
+        height: 730px;
+      }
+    /*=---------------------=-0=333333333333333333333333333----*/
+
+    .crate{
+        margin: 70px 0;
+    }
+    
+    .tovari__crate-inner{
+        padding: 20px 10px;
+        border: 1px solid #948d89;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;  
+    }
+    .tovari__crate-img{
+        height: 350px;
+        width: 300px;
+    }
+    .tovari__opisanie{
+        padding-left: 0px;
+    }
+    .tovari__znaki{
+        padding-left: 60px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    /*----------------*/
+
+    .oplata{
+        font-size: 40px;
+    }
+    .adresss-item{
+        text-align: center;
+        font-size: 18px;
+        flex-direction: column;
+    }
+    .lk{
+        font-size: 15px;
+    }
+    
+    .cennnnter{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+}
+
